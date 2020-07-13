@@ -20,9 +20,9 @@ console.log(cognomi);
 
 // Controllo la "posizione umana" del cognome inserito all'interno dell'array
 // impostando posizione = -1 e nel while posizione == -1 il risultato non cambia (??)
-var posizione = -1;
+var posizione = 0;
 var i =0;
-while (i < cognomi.length && posizione == -1) {
+while (i < cognomi.length && posizione == 0) {
   if (nuovoCognome == cognomi[i]) {
     posizione = ++i;
   }
